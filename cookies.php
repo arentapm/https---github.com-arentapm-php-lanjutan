@@ -1,9 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Cokies </title>
+</head>
 <?php
 $nama = "Arenta Putri Maharani";
 $email = "arenta@example.com";
 
-setcookie("nama", $nama, time() + (86400 * 30), "/"); 
-setcookie("email", $email, time() + (86400 * 30), "/");
+setcookie("nama", $nama, time() + (10 * 30), "/"); 
+setcookie("email", $email, time() + (10 * 30), "/");
 
 echo "Data identitas Anda telah disimpan dalam cookies.";
 
